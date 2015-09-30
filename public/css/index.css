@@ -2,7 +2,39 @@ body {
     background-color: #AAAAAA;
 }
 
-header {
-    min-height: 40px;
-    background-color: #333333;
+#header {
+    height: 40px;
+    background-color: #0047B6;
+}
+
+#header2 {
+    height: 10px;
+    background-color: #00AB39;
+}
+
+#background {
+    height: 700px;
+    background-color: #B8F0CB;
+}
+
+h1 {
+    font-family: Lato;
+    font-size: 30pt;
+    color: #FFFFFF;
+}
+
+#header-logo {
+    -webkit-filter: brightness(1000%);
+    position: relative;
+    top: 1px;
+}
+
+#header-title {
+    position: fixed;
+    top: -18px;
+    left: 50px;
+}
+
+#butn {
+    right: -40%;
 }
