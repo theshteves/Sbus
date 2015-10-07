@@ -4,32 +4,43 @@
     <title>BUS</title>
     <link rel="icon" type="image/png" href="img/logo48.png">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-    <link href="http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="css/index.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato:900,100">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
   </head>
   <body class="container-fluid">
     <div id="header" class="row">
-      <div class="col-xs-1">
+      <div class="col-xs-6">
 	<img id="header-logo" type="image/png" src="img/logo48.png"></img>
       </div>
-      <div id="header-title" class="col-xs-3">
+      <div id="header-title" class="col-xs-4">
 	<h1>BUS</h1>
       </div>
-      <div id="butn" class="col-xs-8">
-	<div class="btn btn-default">Submit</div>
+      <div class="col-xs-4">
+	<h1 id="tagline" class="thin">"You're Welcome" -Steven Kneiser</h1>
+      </div>
+      <div class="col-xs-4">
+	<span id="menu-button" class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
+      </div>
+      <div id="shade">
       </div>
     </div>
-    <div id="header2" class="row">
-    </div>
-
     <div id="content" class="row">
-      <div>
+      <div id="map" class="col-md-8">
+	<iframe frameborder="0"
+		src="https://www.google.com/maps/embed/v1/directions?key=AIzaSyCBYtphSiDRCkgJdo9y3IomkqL2ZjEi1Oc
+		     &origin=East Lansing&destination=Detroit" allowfullscreen>
+	</iframe>
+      </div>
+      <div id="sidebar" class="col-md-4">
+	<h1><span>ROUTES</span></h1>
+	<div id="submit" class="btn btn-warning"><h1 class="thin">DO IT</h1>
+	</div>
       </div>
     </div>
-
   </body>
 </html>
